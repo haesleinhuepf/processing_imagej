@@ -27,7 +27,7 @@ mvn install
 ```
 
 Go to the processing installation folder `/processing-3.5.4/core/library` and 
-copy the `jogl-all.jar` to `jogl-all.jar.zip`. 
+copy the `jogl-all-natives-windows-amd64.jar` to `jogl-all-natives-windows-amd64.jar.zip`. 
 Open this zip file and unpack its sub-directory `/natives/` to your Fiji installation directory: `Fiji.app/natives/`.
 
 # Testing the installation
