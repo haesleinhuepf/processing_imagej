@@ -35,5 +35,7 @@ Open this zip file and unpack its sub-directory `/natives/` to your Fiji install
 * Open Samples > T1 Head
 * Plugins > Processing.org 3D Viewer
 
+![Image](images/processing_imagej.gif)
+
 # Acknowledgements
 Thanks to Jerome Mutterer for [his processing.org code running the 3D Viewer](https://github.com/mutterer/ImageJ_Processing3D_Viewer/blob/master/ImageJ_Processing3D_Viewer/ImageJ_Processing3D_Viewer.pde)!
