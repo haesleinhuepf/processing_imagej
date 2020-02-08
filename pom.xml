@@ -26,7 +26,7 @@
 	</organization>
 	<licenses>
 		<license>
-			<name>Public domain</name>
+			<name>GPL2</name>
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
@@ -44,7 +44,7 @@
 	</developers>
 	<contributors>
 		<contributor>
-			<name>none</name>
+			<name>Jerome Mutterer</name>
 		</contributor>
 	</contributors>
 
@@ -56,14 +56,14 @@
 	</mailingLists>
 
 	<scm>
-		<connection>scm:git:git://github.com/haesleinhuepf/preloader</connection>
-        <developerConnection>scm:git:git@github.com/haesleinhuepf/preloader</developerConnection>
+		<connection>scm:git:git://github.com/haesleinhuepf/processing_imagej</connection>
+        <developerConnection>scm:git:git@github.com/haesleinhuepf/processing_imagej</developerConnection>
         <tag>HEAD</tag>
-		<url>https://github.com/haesleinhuepf/preloader</url>
+		<url>https://github.com/haesleinhuepf/processing_imagej</url>
 	</scm>
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/haesleinhuepf/preloader/issues</url>
+		<url>https://github.com/haesleinhuepf/processing_imagej/issues</url>
 	</issueManagement>
 	<ciManagement>
 		<system>None</system>
@@ -71,7 +71,7 @@
 
 	<properties>
 		<package-name>net.haesleinhuepf</package-name>
-		<license.licenseName>bsd_3</license.licenseName>
+		<license.licenseName>GPL2</license.licenseName>
 		<license.copyrightOwners>Robert Haase, MPI CBG</license.copyrightOwners>
 		<imagej.app.directory>C:/programs/fiji-win64/Fiji.app/</imagej.app.directory>
 		<!--<imagej.app.directory>/home/rhaase/programs/fiji/Fiji.app/</imagej.app.directory>-->
@@ -140,10 +140,6 @@
 		<repository>
 			<id>imagej.public</id>
 			<url>https://maven.imagej.net/content/groups/public</url>
-		</repository>
-		<repository>
-			<id>clij</id>
-			<url>http://dl.bintray.com/haesleinhuepf/clij</url>
 		</repository>
 	</repositories>
 
